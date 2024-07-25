@@ -1,0 +1,11 @@
+.graph {
+    width: 1000px;
+    height: 600px;
+    border: solid 1px black;
+    user-select: none;
+}
+
+.x-label {
+    margin-top: 1px;
+}
+
