@@ -1,11 +1,8 @@
 .graph {
-    width: 1000px;
-    height: 600px;
-    border: solid 1px black;
     user-select: none;
+    flex: 3;
+    color: white;
+    height: 1fr;
 }
 
-.x-label {
-    margin-top: 1px;
-}
 

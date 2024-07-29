@@ -1,16 +1,15 @@
-import Graph from "./Graph";
+import LinearRegression from "./LinearRegression";
 import Navbar from "./Navbar";
 import "./styles/App.css";
 import { useState } from "react";
 
 function App() {
-  const [index, setIndex] = useState(null);
+  const [index, setIndex] = useState(0);
 
   return (
     <div className="main">
       <Navbar index={index} setIndex={setIndex} />
-      {index}
-      <Graph />
+      {index === 0 ? <LinearRegression /> : null}
     </div>
   );
 }

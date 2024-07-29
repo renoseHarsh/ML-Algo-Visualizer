@@ -12,8 +12,12 @@
 
 }
 
+
+.header p {
+    background-color: rgb(24,23,28);
+}
+
 .nav-item{
-    background-color: transparent;
     height: 100%;
     flex: 1;
     display: flex;
@@ -24,6 +28,7 @@
     font-size: 15px; 
     color: rgb(150,150,151);
     transition: border-bottom 0.15s;
+    background-color: rgb(24,23,28);
 }
 
 .nav-item:hover{
@@ -37,7 +42,6 @@
 }
 
 .active-nav-item {
-    background-color: transparent;
     height: 100%;
     flex: 1;
     display: flex;
@@ -48,4 +52,5 @@
     font-size: 15px; 
     color: rgb(229,229,231);
     border-bottom: 3px solid rgb(229,229,231);
+    background-color: rgb(24,23,28);
 }

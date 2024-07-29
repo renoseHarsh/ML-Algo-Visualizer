@@ -1,0 +1,178 @@
+.linear-contols {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+
+p {
+    color: rgb(228,228,228);
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+.control-section,
+.select-weights,
+.actions{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    border-bottom: 2px solid rgb(48, 48, 48);;
+    flex: 0.15;
+}
+
+
+.data-counter-digit{
+    font-size: 60px;
+}
+
+.learning-rate{
+    color: white;
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 100px;
+    height: 50px;
+    font-size: 30px;
+    background-color: rgb(41, 41, 41);
+    margin-bottom: 5px;
+    margin-left: 5px;
+    padding: 5px;
+    outline: none;
+}
+
+.learning-rate:disabled {
+    color: rgb(162, 162, 162);
+    background-color: gray;
+    cursor: not-allowed;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.weight-info>button {
+    color: white;
+}
+
+.weights {
+    display: flex;
+    color: white;
+    margin-left: 5px;
+    gap: 10px;
+    align-self: center;
+}
+
+.select-weights {
+    justify-content: start;
+    gap: 10px;
+}
+
+.weight,
+.weight-active{
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 5px 10px 5px 10px;
+    background-color: rgb(41, 41, 41);
+    transition: border-color 0.15s, background-color 0.15s;
+}
+
+.weight-active {
+    background-color: rgb(175, 174, 174);
+}
+
+.weight-active:hover {
+    cursor: pointer;
+    border-color: white;
+}
+
+.weight-active:active {
+    background-color: rgb(133, 133, 133);
+}
+
+.weight:hover {
+    cursor: pointer;
+    border-color: white;
+}
+
+.weight:active {
+    background-color: rgb(133, 133, 133);
+}
+
+.weight-info {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+}
+
+.weight-info>p {
+    font-size: 10px;
+}
+
+
+
+.actions {
+    justify-content: center;
+    align-items: center;
+}
+
+.actions-outer {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    align-items: center;
+    gap: 20px;
+}
+.actions-inner {
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.actions-inner>button {
+    color: white;
+    border: none;
+    border-radius: 10px;
+    height: 40px;
+    width: 100px;
+    transition: border 0.15s, opacity 0.15s;
+}
+
+.action-train {
+    background-color: rgb(0, 78, 0);
+}
+.action-stop {
+    background-color: rgb(157, 131, 0);
+}
+.action-clear {
+    background-color: rgb(78, 0, 0);
+}
+
+.actions-inner>button:hover {
+    cursor: pointer;
+    border: 1px solid white;
+}
+
+.actions-inner>button:active {
+    opacity: 0.80;
+}
+
+.actions-inner>button:disabled {
+    background-color: gray;
+    cursor: not-allowed;
+}
+
+.actions-inner>button:disabled:hover,
+.actions-inner>button:disabled:active {
+    border: none;
+    opacity: 1;
+}
+
+
