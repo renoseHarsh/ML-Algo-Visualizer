@@ -17,7 +17,7 @@ This project uses:
 ### Getting Started
 To start using the ML Algorithms Visualizer, follow these steps:
 
-1. **Visit the Site:** Go to <a href="https://hilarious-torrone-25d4e2.netlify.app/" target="_blank">ML Algorithms Visualizer</a>.
+1. **Visit the Site:** Go to <a href="https://mlaglgo.netlify.app/" target="_blank">ML Algorithms Visualizer</a>.
 2. **Draw a Function:** Draw an arbitrary function on the graph.
 3. **Select Learning Rate:** Choose a learning rate that suits your needs.
 4. **Choose Extra Features:** Select additional features like x², x³, x⁴, and sin(x) to determine how curvy the predicted line will be.
